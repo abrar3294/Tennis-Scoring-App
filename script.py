@@ -53,7 +53,7 @@ def tennis_game():
         print("\n===============Tennis Game===============")
         print(f"Point Score:   Player 1 = {scores.get(player1_pts, "40+")}, Player 2 = {scores.get(player2_pts, "40+")}")
         print(f"Set Score:     Player 1 = {player1_set}, Player 2 = {player2_set}")
-        print(f"Matches won:   Player 1 = {player1_match}, Player 2: {player2_match}")
+        print(f"Matches won:   Player 1 = {player1_match}, Player 2 = {player2_match}")
         print(f"==========================================\n")
 
 tennis_game()        
